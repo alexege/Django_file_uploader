@@ -120,6 +120,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploader/static/Django_file_uploader/media/')
 
-MEDIA_URL = '/media/'
+MEDIA_URL = '/Django_file_uploader/media/'

@@ -18,12 +18,11 @@
         {{forloop.counter}}.<a href="{{ img.pic.url }}">{{ img.pic.name }}</a>
         ({{img.upload_date}})<hr />
         <br>
-        <img src="{{img.pic.url}}" alt="not loading">
+        <img src="{% static img.pic.url %}" alt="not loading">
     {% endfor %}
     <h1>Here</h1>
-    <img src="{% static 'media\images\picture_0.jpg' %}" alt="??"><br>
-    <!-- media\images\picture_0.jpg -->
-    <img src="media\images\2019-08-29_16_16_11--_ECommerceSite.png" alt="page not loaded">
+    <!-- <img src="{% static 'Django_file_uploader\images\picture_0.jpg' %}" alt="??"><br> -->
+    <!-- <img src="{% static 'Django_file_uploader\media\images\picture_0.jpg' %}" alt="??"><br> -->
     </div>
 </body>
 </html>
